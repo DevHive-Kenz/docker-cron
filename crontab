@@ -1,2 +1,5 @@
-* * * * * curl -s -w "\nConnected to the server\n" http://kenz-crm-web:8080
+* * * * * curl --location --request POST 'https://kenz-app-rzi5w.ondigitalocean.app/api/login/' \
+--form 'username="ashif8520@gmail.com"' \
+--form 'password="123456"' \
+--form 'device_token="dsadsadsafsaffdvcxvxfxgfxvcxvdgvxvxvfbxf"'
 # An empty line is required at the end of this file for a valid cron file.
