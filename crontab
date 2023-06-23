@@ -1,2 +1,2 @@
-* * * * * echo "ppp"
+* * * * * curl http://kenz-crm-web:8080/api/logout/ 
 # An empty line is required at the end of this file for a valid cron file.
