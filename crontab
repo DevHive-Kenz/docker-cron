@@ -1,5 +1,5 @@
-* * * * * curl --location --request POST 'http://kenz-crm-web:8080/api/login/' \
---form 'username="ashif8520@gmail.com"' \
---form 'password="123456"' \
---form 'device_token="dsadsadsafsaffdvcxvxfxgfxvcxvdgvxvxvfbxf"'
+* * * * * curl --location --request POST http://kenz-crm-web:8080/api/login/ \
+--form 'username=ashif8520@gmail.com' \
+--form 'password=123456' \
+--form 'device_token=dsadsadsafsaffdvcxvxfxgfxvcxvdgvxvxvfbxf'
 # An empty line is required at the end of this file for a valid cron file.
