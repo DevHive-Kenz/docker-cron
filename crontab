@@ -1,5 +1,2 @@
-* * * * * curl --location --request POST 'https://kenz-app-rzi5w.ondigitalocean.app/api/login/' \
---form 'username=a' \
---form 'password=123456' \
---form 'device_token=i'
+* * * * * echo "ppp"
 # An empty line is required at the end of this file for a valid cron file.
