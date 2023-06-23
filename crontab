@@ -1,2 +1,2 @@
-* * * * * curl http://kenz-crm-web:8080 >/proc/1/fd/1 2>/proc/1/fd/2
+* * * * * curl -s -w "\nConnected to the server\n" http://kenz-crm-web:8080
 # An empty line is required at the end of this file for a valid cron file.
